@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background:rgb(20, 19, 19);
+  height: 500px;
+
+}
+
+
+.main {
+  background: #fff;
+  margin: 40px;
+  /* padding: 20px; */
+ 
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;   
+   background: linear-gradient(to bottom, #fde7b5, white);
+
+  
+  
+  
+}
+
+.logo {
+  font-size: 25px;
+  font-style: italic;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+.card-container {
+  display: flex;
+  gap: 20px;
+
+
+}
+.achievement-cards img{
+border-radius: 20px;
+}
+.achievements{
+    background: linear-gradient(to bottom, white, #fde7b5);
+    height: 600px;
+    margin-top: 100px;
+    padding: 20px;
+
+}
+.achu h1{
+    padding: 20px;
+    
+} 
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
