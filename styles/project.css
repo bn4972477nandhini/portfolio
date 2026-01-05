@@ -45,14 +45,14 @@ nav a {
   gap: 20px;
 
 
-}
+} 
 .achievement-cards img{
 border-radius: 20px;
 }
 .achievements{
     background: linear-gradient(to bottom, white, #fde7b5);
-    height: 600px;
-    margin-top: 100px;
+    height: 800px;
+    /* margin-top: 100px; */
     padding: 20px;
 
 }
@@ -67,4 +67,25 @@ border-radius: 20px;
   width: 500px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+} 
+button {
+    margin-left: 150px;
+    padding:  10px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: black;
+    
+   
+}
+h3{
+    margin-left: 170px;
+    font-size: 25px;
+    
+}
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
