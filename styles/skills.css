@@ -2,76 +2,119 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", sans-serif;
+  font-family:"Outfit",sans-serif;
 }
 
 body {
-  background:rgb(20, 19, 19);
-  height: 500px;
-
+  background: #141313;
 }
 
 
 .main {
-  background: #fff;
-  margin: 40px;
- 
+  margin: 60px 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  height: 1400px;
 }
 
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 25px 50px;
-  
-  
-  
 }
 
-.logo {
-  font-size: 25px;
-  font-style: italic;
+nav {
+  text-align: center;
 }
 
 nav a {
   margin: 0 15px;
   text-decoration: none;
   color: #000;
-  font-size: 20px;
-}
-.hero{
-    padding: 50px;
-    height: 800px;
-    background: linear-gradient(to bottom, white, #fde7b5);
-
-}
-.head{
-    display: flex;
-    gap: 20px;
-}
-.head img{
-    border-radius: 15px;
-}
-.head p{
-    font-size: 20px;
-}
-.heads{
-    display: flex;
-    gap: 20px;
-}
-.heads img{
-    border-radius: 15px;
-    margin-left: 00px;
-    margin-top: 30px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 
-
-.mes h1{
-
-    margin-top: 100px;
+.head {
+  padding: 60px 50px;
+  text-align: center;
 }
-.mes p{
-    font-size: 20px;
+
+.skills h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
 }
+
+
+.skills img {
+  width: 250px; 
+  height: 180px; 
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 12px;
+  border: 3px solid black;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+.skills img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.25);
+}
+#hii{
+  margin:auto;
+  /* margin-right: 10px; */
+  width: 1200px;
+  height:250px;
+}
+
+h1{
+  margin-right: 1200px;
+  font-size:40px;
+}
+/* .els.img{
+  height: 300px;
+  width: 500px;
+} */
+
+.life{
+display: flex;
+gap:32px;
+
+
+}
+.life img{
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(6, 6, 6, 0.15);
+  border: 3px solid rgb(7, 7, 7);      
+  
+}
+.life img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.25);
+}
+
+.cont{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.cont h2{
+  margin-left: 520px;
+  font-weight: bold;
+}
+#power{
+  margin-left: 25px;
+  font-size: 15px;
+}
+#product{
+  margin-left: 20px ;
+  font-size: 15px;
+}
+#work{
+  margin-left: 40px ;
+  font-size: 15px;
+}
+#brand{
+  margin-left: 60px ;
+  font-size: 15px;
+}
+

@@ -14,34 +14,30 @@ body {
 
 .main {
   background: #fff;
-  margin: 40px;
-  /* padding: 20px; */
+  margin: 100px 100px;
+  border-radius: 12px;
+  height: 800px;
+  
  
 }
 
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 25px 50px;   
-   background: linear-gradient(to bottom, #fde7b5, white);
-
   
-  
+padding: 25px 50px;
   
 }
-
-.logo {
-  font-size: 25px;
-  font-style: italic;
+nav {
+  text-align: center;
 }
+
 
 nav a {
   margin: 0 15px;
   text-decoration: none;
   color: #000;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
 }
 .card-container {
   display: flex;
@@ -49,25 +45,26 @@ nav a {
 
 
 }
-.achievement-cards img{
-border-radius: 20px;
+.achievement-cards,
+.card img{
+border-radius: 10px;
 }
 .achievements{
-    background: linear-gradient(to bottom, white, #fde7b5);
-    height: 600px;
-    margin-top: 100px;
-    padding: 20px;
+  padding: 50px;
+  color: white;
+  width: 300px ;
 
 }
 .achu h1{
-    padding: 20px;
+  padding: 20px;
     
 } 
 
 .card {
-  background: white;
+  /* background: rgb(10, 10, 10); */
   padding: 20px;
-  width: 500px;
+  /* width: 200px; */
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color:#ffffff;
 }
