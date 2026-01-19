@@ -43,10 +43,10 @@ nav a {
 
 
 } 
-.achievement-cards img{
+.project-cards img{
 border-radius: 20px;
 }
-.achievements{
+.project{
     height: 800px;
     padding: 20px;
     width: 300px;
@@ -54,10 +54,7 @@ border-radius: 20px;
     margin-left: 200px;
 
 }
-.achu h1{
-  padding: 20px;
-    
-} 
+
 
 .card {
   background: white;
