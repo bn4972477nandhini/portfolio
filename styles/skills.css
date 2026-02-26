@@ -131,7 +131,6 @@ nav a {
 .squad img {
   width: 400px;
   height: 300px;
-  /* object-fit: cover; */
   border-radius: 12px;
   margin-bottom: 10px;
 }
@@ -143,7 +142,6 @@ nav a {
 
 .english {
   text-align: center;
-  /* margin-top: 60px; */
   font-size: 20px;
 }
 
@@ -168,7 +166,6 @@ nav a {
 }
 
 
-/* Circle */
 .english{
   text-align:center;
   display: flex;
@@ -195,7 +192,7 @@ nav a {
   width: 70%;
 }
 
-/* Background circle */
+
 .circle::before{
   content:"";
   position:absolute;
@@ -205,7 +202,7 @@ nav a {
   border:6px solid #eee;
 }
 
-/* Progress */
+
 .progress{
   position:absolute;
   width:100%;
