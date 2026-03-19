@@ -53,7 +53,7 @@ nav a {
 
 .skills {
   display: flex;
-  gap: 30px;
+  gap: 50px;
   margin-top: 40px;
  
 }
@@ -63,7 +63,7 @@ nav a {
   padding: 25px;
   border-radius: 16px;
   text-align: center;
-  width: 200px;
+  /* width: 100px; */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
  
 }
@@ -74,9 +74,9 @@ nav a {
 }
 
 .skill-box img {
-  width: 200px;
+  /* width: 200px; */
   height: 90px;
-  object-fit: contain;
+  object-fit: contain;/
 }
 
 .skill-box p {
@@ -111,7 +111,7 @@ nav a {
   gap: 90px;
   height: 800px; 
   width: 1000px;
-  margin-left: 150px;
+  margin-left: 80px;
 }
 
 .squad {
@@ -159,7 +159,7 @@ nav a {
 }
 
 .skill-box{
-  width: 300px;
+  width: 220px;
 }
 .tool{
   margin-top: 50px;
