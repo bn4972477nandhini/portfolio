@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nandhini | Full Stack Developer Trainee & UI/UX Designer</title>
+    <title>Nandhini | Full Stack Trainee & UI/UX Designer Portfolio</title>
     <link rel="stylesheet" href="./styles/index.css" />
     <link
       rel="stylesheet"
@@ -16,22 +16,25 @@
   </head>
   <body>
     <div class="main">
+      <!-- HEADER & NAVIGATION -->
       <header>
         <nav>
-          <a href="./index.html" class="logo">
+          <a href="#home" class="logo">
             <i class="fa-solid fa-code"></i> Nandhini<span>.dev</span>
           </a>
           <ul class="nav-links">
-            <li><a href="./index.html" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
-            <li><a href="./pages/about.html"><i class="fa-solid fa-user"></i> About</a></li>
-            <li><a href="./pages/skills.html"><i class="fa-solid fa-laptop-code"></i> Skills</a></li>
-            <li><a href="./pages/project.html"><i class="fa-solid fa-folder-open"></i> Projects</a></li>
-            <li><a href="./pages/contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            <li><a href="#home" class="nav-item active"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#about" class="nav-item"><i class="fa-solid fa-user"></i> About</a></li>
+            <li><a href="#skills" class="nav-item"><i class="fa-solid fa-laptop-code"></i> Skills</a></li>
+            <li><a href="#projects" class="nav-item"><i class="fa-solid fa-folder-open"></i> Projects</a></li>
+            <li><a href="#achievements" class="nav-item"><i class="fa-solid fa-trophy"></i> Achievements</a></li>
+            <li><a href="#contact" class="nav-item"><i class="fa-solid fa-envelope"></i> Contact</a></li>
           </ul>
         </nav>
       </header>
 
-      <section class="hero">
+      <!-- SECTION 1: HERO / HOME -->
+      <section id="home">
         <div class="hero-container">
           <div class="hero-text">
             <div class="badge-wrapper">
@@ -45,10 +48,10 @@
             </p>
 
             <div class="hero-actions">
-              <a href="./pages/project.html" class="btn-primary">
+              <a href="#projects" class="btn-primary">
                 <i class="fa-solid fa-rocket"></i> View My Projects
               </a>
-              <a href="./pages/contact.html" class="btn-secondary">
+              <a href="#contact" class="btn-secondary">
                 <i class="fa-solid fa-paper-plane"></i> Get in Touch
               </a>
               <a href="https://github.com/bn4972477nandhini" target="_blank" class="btn-secondary" title="GitHub">
@@ -66,39 +69,515 @@
             </div>
           </div>
         </div>
+
+        <!-- Quick Stats -->
+        <div class="stats-bar">
+          <div class="stat-card">
+            <i class="fa-solid fa-layer-group"></i>
+            <h3>5+</h3>
+            <p>Web Applications Built</p>
+          </div>
+
+          <div class="stat-card">
+            <i class="fa-solid fa-user-tie"></i>
+            <h3>Full Stack</h3>
+            <p>Trainee @ Tamil Business Tribe</p>
+          </div>
+
+          <div class="stat-card">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <h3>UI/UX</h3>
+            <p>Design & Wireframing</p>
+          </div>
+
+          <div class="stat-card">
+            <i class="fa-solid fa-award"></i>
+            <h3>Freshworks STS</h3>
+            <p>Software Academy Student</p>
+          </div>
+        </div>
       </section>
 
-      <!-- Quick Stats -->
-      <section class="stats-bar">
-        <div class="stat-card">
-          <i class="fa-solid fa-layer-group"></i>
-          <h3>5+</h3>
-          <p>Web Projects Built</p>
+      <!-- SECTION 2: ABOUT & TIMELINE -->
+      <section id="about">
+        <div class="section-header">
+          <h2>About <span class="highlight">Nandhini</span></h2>
+          <p>Full Stack Developer Trainee, UI/UX Designer & Continuous Learner</p>
         </div>
 
-        <div class="stat-card">
-          <i class="fa-solid fa-user-tie"></i>
-          <h3>Full Stack</h3>
-          <p>Trainee @ Tamil Business Tribe</p>
+        <div class="about-grid">
+          <!-- Gallery -->
+          <div class="about-card">
+            <div class="gallery-grid">
+              <div class="gallery-item"><img src="./assets/School.jpg" alt="School memory"></div>
+              <div class="gallery-item big"><img src="./assets/nandhini.png" alt="Nandhini profile"></div>
+              <div class="gallery-item tall"><img src="./assets/sidp.jpg" alt="SIDP training"></div>
+              <div class="gallery-item"><img src="./assets/reading.webp" alt="Reading and learning"></div>
+              <div class="gallery-item"><img src="./assets/drawing.jpg" alt="Creative design"></div>
+              <div class="gallery-item wide"><img src="./assets/FSSA.png" alt="Freshworks STS Software Academy"></div>
+              <div class="gallery-item"><img src="./assets/story-telling.jpg" alt="Storytelling event"></div>
+              <div class="gallery-item wid"><img src="./assets/first-price.jpeg" alt="Workplace study 1st price award"></div>
+            </div>
+          </div>
+
+          <!-- Bio Text -->
+          <div class="about-card about-text">
+            <h3><i class="fa-solid fa-sparkles"></i> My Journey</h3>
+            <p>
+              Hello! I am <strong>Nandhini</strong> (17 years old), living in Chennai with roots in Thiruvannamalai. Supported by my encouraging family, I chose a practical skills-first path in technology after completing my 12th standard.
+            </p>
+            <p>
+              Currently, I am working as a <strong>Full Stack Developer Trainee at Tamil Business Tribe</strong> while continuing my learning journey at <strong>Freshworks STS Software Academy</strong>.
+            </p>
+            <p>
+              Through hands-on development, I have created impactful web applications including a full-fledged <strong>Psychometric Web Application</strong> for personality assessment and <strong>CoachX</strong>, a mentorship and coaching web platform. I place strong emphasis on <strong>UI/UX design principles</strong> to ensure every application is intuitive and visually engaging.
+            </p>
+            <p>
+              Beyond technical skills, I actively hone my communication, presentation, and teamwork abilities. Winning 1st prize in workplace study activities and speaking in storytelling competitions boosted my confidence as a future tech leader.
+            </p>
+          </div>
         </div>
 
-        <div class="stat-card">
-          <i class="fa-solid fa-wand-magic-sparkles"></i>
-          <h3>UI/UX</h3>
-          <p>Design & Wireframing</p>
-        </div>
+        <!-- Experience Timeline -->
+        <h3 style="text-align: center; font-size: 26px; color: #fff; margin: 40px 0 30px;">Experience & Milestones</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-tag">CURRENT ROLE</span>
+              <h3>Full Stack Developer Trainee</h3>
+              <h4>Tamil Business Tribe</h4>
+              <p>Building real-world web applications, enhancing front-end & back-end skills, implementing responsive UI/UX designs, and writing production-ready code.</p>
+            </div>
+          </div>
 
-        <div class="stat-card">
-          <i class="fa-solid fa-award"></i>
-          <h3>Freshworks STS</h3>
-          <p>Software Academy Student</p>
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-tag">WEB APP PROJECTS</span>
+              <h3>Developer - Psychometric App & CoachX</h3>
+              <h4>Independent / Academy Projects</h4>
+              <p>Designed and built full-stack web applications: Psychometric Web App for interactive traits testing and CoachX for mentorship scheduling and growth tracking.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-tag">ACADEMY</span>
+              <h3>Software Academy Student</h3>
+              <h4>Freshworks STS Software Academy</h4>
+              <p>Enrolled in intensive software training covering web technologies, JavaScript, HTML5/CSS3, Git version control, and professional workplace communication.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fa-solid fa-trophy"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-tag">ACHIEVEMENT</span>
+              <h3>Squad First Prize - Workplace Study</h3>
+              <h4>Leadership & Teamwork</h4>
+              <p>Led squad team members in workplace research, employee interviews, and presentation, securing 1st prize for team collaboration and analytical presentation.</p>
+            </div>
+          </div>
         </div>
       </section>
 
+      <!-- SECTION 3: SKILLS -->
+      <section id="skills">
+        <div class="section-header">
+          <h2>Technical & <span class="highlight">Design Skills</span></h2>
+          <p>A comprehensive overview of my UI/UX design tools, full stack development stack, and personal growth milestones.</p>
+        </div>
+
+        <!-- UI/UX Design -->
+        <h3 class="skills-section-title"><i class="fa-solid fa-pen-ruler"></i> UI/UX & Design</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <img src="./assets/figma.png" alt="Figma">
+            <p>Figma Design</p>
+            <span>UI Prototyping</span>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-layer-group"></i>
+            <p>Wireframing</p>
+            <span>Layout Structure</span>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <p>Responsive UX</p>
+            <span>Mobile & Desktop</span>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <p>User Centric UI</p>
+            <span>Visual Aesthetics</span>
+          </div>
+        </div>
+
+        <!-- Tech Stack -->
+        <h3 class="skills-section-title"><i class="fa-solid fa-code"></i> Tech & Full Stack Development</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fa-solid fa-cubes"></i>
+            <p>Full Stack Dev</p>
+            <span>Tamil Business Tribe</span>
+          </div>
+
+          <div class="skill-card">
+            <img src="./assets/html.png" alt="HTML5">
+            <p>HTML5</p>
+            <span>Semantic Markup</span>
+          </div>
+
+          <div class="skill-card">
+            <img src="./assets/css.png" alt="CSS3">
+            <p>CSS3</p>
+            <span>Flexbox & Grid</span>
+          </div>
+
+          <div class="skill-card">
+            <img src="./assets/js.png" alt="JavaScript">
+            <p>JavaScript</p>
+            <span>ES6+ Logic</span>
+          </div>
+
+          <div class="skill-card">
+            <img src="./assets/ps.png" alt="Problem Solving">
+            <p>Problem Solving</p>
+            <span>Algorithms</span>
+          </div>
+
+          <div class="skill-card">
+            <img src="./assets/excel.jpg" alt="Excel Data">
+            <p>Excel / Sheets</p>
+            <span>Data Analytics</span>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <h3 class="skills-section-title"><i class="fa-solid fa-toolbox"></i> Tools & Environment</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <img src="./assets/vscode.png" alt="VS Code">
+            <p>VS Code</p>
+            <span>Primary IDE</span>
+          </div>
+
+          <div class="skill-card">
+            <img src="./assets/git.png" alt="Git & GitHub">
+            <p>Git & GitHub</p>
+            <span>Version Control</span>
+          </div>
+
+          <div class="skill-card">
+            <img src="./assets/web.png" alt="Webflow">
+            <p>Webflow</p>
+            <span>No-Code UI</span>
+          </div>
+
+          <div class="skill-card">
+            <img src="./assets/wix.png" alt="Wix">
+            <p>Wix</p>
+            <span>Web Design</span>
+          </div>
+        </div>
+
+        <!-- Life Skills -->
+        <h3 class="skills-section-title"><i class="fa-solid fa-people-group"></i> Life & Collaboration Skills</h3>
+        <div class="life-grid">
+          <div class="life-card">
+            <img src="./assets/Squad.jpg" alt="Squad Power Presentation">
+            <h4>Squad Power Presentation</h4>
+            <p>Gained confidence to present ideas clearly and boldly in front of large audiences and stakeholders.</p>
+          </div>
+
+          <div class="life-card">
+            <img src="./assets/product.jpg" alt="Product Building Challenge">
+            <h4>Product Building Challenge</h4>
+            <p>Learnt agile teamwork, resolving design conflicts, and co-creating digital products under timelines.</p>
+          </div>
+
+          <div class="life-card">
+            <img src="./assets/workplace.jpg" alt="Workplace Study">
+            <h4>Workplace Study (1st Prize)</h4>
+            <p>Interacted directly with professionals, analyzed business operations, and secured top squad award.</p>
+          </div>
+
+          <div class="life-card">
+            <img src="./assets/Brand.png" alt="Brand Analysis">
+            <h4>Brand Analysis & Strategy</h4>
+            <p>Studied target audiences, brand identity design, storytelling strategies, and modern digital rebranding.</p>
+          </div>
+        </div>
+
+        <!-- English Proficiency -->
+        <h3 class="skills-section-title"><i class="fa-solid fa-language"></i> English Communication Proficiency</h3>
+        <div class="english-section">
+          <div class="english-grid">
+            <div class="english-item">
+              <div class="circle-progress" style="--percent: 65;">22</div>
+              <div class="english-title">Reading</div>
+              <div class="english-level">A1 Beginner</div>
+            </div>
+
+            <div class="english-item">
+              <div class="circle-progress" style="--percent: 70;">28</div>
+              <div class="english-title">Listening</div>
+              <div class="english-level">A1 Beginner</div>
+            </div>
+
+            <div class="english-item">
+              <div class="circle-progress" style="--percent: 80;">33</div>
+              <div class="english-title">Writing</div>
+              <div class="english-level">A2 Elementary</div>
+            </div>
+
+            <div class="english-item">
+              <div class="circle-progress" style="--percent: 88;">40</div>
+              <div class="english-title">Speaking</div>
+              <div class="english-level">A2 Elementary</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: PROJECTS -->
+      <section id="projects">
+        <div class="section-header">
+          <h2>Featured <span class="highlight">Projects</span></h2>
+          <p>Web Applications & UI/UX Designs built with HTML, CSS, JavaScript, Full Stack concepts, and user-centric UX principles.</p>
+        </div>
+
+        <div class="card-grid">
+          <!-- Psychometric App -->
+          <div class="project-card">
+            <div class="card-image-wrapper">
+              <div class="project-placeholder" style="background: linear-gradient(135deg, #311b92 0%, #0d47a1 100%);">
+                <i class="fa-solid fa-brain"></i>
+                <span>Psychometric Assessment</span>
+              </div>
+              <span class="card-badge">Full Stack & UI/UX</span>
+            </div>
+            <div class="card-body">
+              <h3><i class="fa-solid fa-clipboard-check"></i> Psychometric Web App</h3>
+              <p>
+                An interactive psychometric assessment platform designed for evaluating user personality traits, behavioral patterns, and cognitive strengths through dynamic questionnaires and real-time score analytics.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">HTML5 / CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Full Stack</span>
+                <span class="tech-tag">UI/UX Design</span>
+              </div>
+              <a href="https://github.com/bn4972477nandhini" target="_blank" class="btn-card">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> View Web Application
+              </a>
+            </div>
+          </div>
+
+          <!-- CoachX App -->
+          <div class="project-card">
+            <div class="card-image-wrapper">
+              <div class="project-placeholder" style="background: linear-gradient(135deg, #004d40 0%, #1a237e 100%);">
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <span>CoachX Platform</span>
+              </div>
+              <span class="card-badge">Mentorship Platform</span>
+            </div>
+            <div class="card-body">
+              <h3><i class="fa-solid fa-graduation-cap"></i> CoachX Web Application</h3>
+              <p>
+                A comprehensive mentorship and coaching web application connecting learners with experienced mentors. Features session scheduling, growth tracking dashboards, clean modern UI, and user management.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Web App</span>
+                <span class="tech-tag">UI/UX Prototyping</span>
+                <span class="tech-tag">Full Stack Architecture</span>
+              </div>
+              <a href="https://github.com/bn4972477nandhini" target="_blank" class="btn-card">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Explore CoachX App
+              </a>
+            </div>
+          </div>
+
+          <!-- Thaimaicare -->
+          <div class="project-card">
+            <div class="card-image-wrapper">
+              <img src="./assets/mother-milk.png" alt="Thaimaicare application preview" />
+              <span class="card-badge">Social Impact</span>
+            </div>
+            <div class="card-body">
+              <h3><i class="fa-solid fa-heart-pulse"></i> Thaimaicare</h3>
+              <p>
+                A compassionate web application addressing real-life needs by connecting mothers to facilitate human milk sharing, creating a supportive community for child care.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Responsive UI</span>
+              </div>
+              <a href="https://bn4972477nandhini.github.io/Thaimaicare/" target="_blank" class="btn-card">
+                <i class="fa-solid fa-globe"></i> View Live Project
+              </a>
+            </div>
+          </div>
+
+          <!-- Flixzone -->
+          <div class="project-card">
+            <div class="card-image-wrapper">
+              <img src="./assets/static.png" alt="Flixzone website screenshot" />
+              <span class="card-badge">Front-End UI</span>
+            </div>
+            <div class="card-body">
+              <h3><i class="fa-solid fa-film"></i> Flixzone</h3>
+              <p>
+                A Netflix-inspired movie streaming UI website built to master responsive layout design, media queries, flexbox grid positioning, and modern CSS styling.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3 Grid</span>
+                <span class="tech-tag">UI Design</span>
+              </div>
+              <a href="https://bn4972477nandhini.github.io/static_website/pages/movie-images.html" target="_blank" class="btn-card">
+                <i class="fa-solid fa-globe"></i> View Live Project
+              </a>
+            </div>
+          </div>
+
+          <!-- Excel Practice -->
+          <div class="project-card">
+            <div class="card-image-wrapper">
+              <img src="./assets/excel_working.png" alt="Excel working screenshot" />
+              <span class="card-badge">Data Analysis</span>
+            </div>
+            <div class="card-body">
+              <h3><i class="fa-solid fa-file-excel"></i> Excel Analytics Practice</h3>
+              <p>
+                Hands-on practical data management using Google Sheets & Microsoft Excel. Covers formulas, sorting, filtering, pivot data, and graphical visualization.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">Google Sheets</span>
+                <span class="tech-tag">Data Entry</span>
+                <span class="tech-tag">Formulas & Charts</span>
+              </div>
+              <a href="https://docs.google.com/spreadsheets/d/1Pv28UvoriHzg3nXIoaAS2LsGk4u2DgtPsdPJCmq_dw4/edit?usp=sharing" target="_blank" class="btn-card secondary">
+                <i class="fa-solid fa-table"></i> View Google Sheet
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5: ACHIEVEMENTS -->
+      <section id="achievements">
+        <div class="section-header">
+          <h2>My <span class="highlight">Achievements</span></h2>
+          <p>Recognitions, presentation wins, and squad awards earned during my learning journey.</p>
+        </div>
+
+        <div class="achievements-grid">
+          <div class="achievement-card">
+            <img src="./assets/story-telling.jpg" alt="Story Telling Competition">
+            <h3>Storytelling Competition Winner</h3>
+            <p>Spoke with confidence and clarity in front of a live audience, overcoming public speaking fear.</p>
+          </div>
+
+          <div class="achievement-card">
+            <img src="./assets/first-price.jpeg" alt="Workplace Study First Prize">
+            <h3>Workplace Study - Squad 1st Prize</h3>
+            <p>Awarded First Prize for workplace research, teamwork, and outstanding presentation to industry leaders.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 6: CONTACT -->
+      <section id="contact">
+        <div class="section-header">
+          <h2>Get In <span class="highlight">Touch</span></h2>
+          <p>Have a project, role, or collaboration in mind? Feel free to reach out to me anytime!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Email -->
+          <a href="mailto:nandhinibabu211@gmail.com" class="contact-card">
+            <div class="contact-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <h3>Email Address</h3>
+            <p>nandhinibabu211@gmail.com</p>
+            <span class="card-action">Send Email <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+
+          <!-- Phone -->
+          <a href="tel:+918438056679" class="contact-card">
+            <div class="contact-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <h3>Phone Number</h3>
+            <p>+91 84380 56679</p>
+            <span class="card-action">Call Now <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/bn4972477nandhini" target="_blank" class="contact-card">
+            <div class="contact-icon">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <h3>GitHub Profile</h3>
+            <p>github.com/bn4972477nandhini</p>
+            <span class="card-action">View Repositories <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/nandhini-b-449438381/" target="_blank" class="contact-card">
+            <div class="contact-icon">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <h3>LinkedIn Profile</h3>
+            <p>nandhini-b-449438381</p>
+            <span class="card-action">Connect on LinkedIn <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
       <footer>
-        <p>© 2026 Nandhini. Built with HTML, CSS, JavaScript & Modern UI/UX practices.</p>
+        <a href="#home" class="back-to-top">
+          <i class="fa-solid fa-arrow-up"></i> Back to Top
+        </a>
+        <p>© 2026 Nandhini B. Built with passion & modern Web Tech.</p>
       </footer>
     </div>
+
+    <!-- Scrollspy & Smooth Scroll Active Link Handler Script -->
+    <script>
+      const navLinks = document.querySelectorAll('.nav-item');
+      const sections = document.querySelectorAll('section');
+
+      window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop - 150;
+          if (pageYOffset >= sectionTop) {
+            current = section.getAttribute('id');
+          }
+        });
+
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === '#' + current) {
+            link.classList.add('active');
+          }
+        });
+      });
+    </script>
   </body>
 </html>
+
 
